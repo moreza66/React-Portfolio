@@ -1,11 +1,5 @@
 
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-/* my added css */
+/* BASE */
 * {
   font-family: 'Nanum Gothic', cursive;
   box-sizing: border-box;
@@ -20,6 +14,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* FONT */
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
@@ -38,38 +34,55 @@ h1 {
   font-family: 'Nanum Gothic', cursive;
 }
 
-
-
-#about-container, #image-container, .education-container {
-  margin: 0px 10px;
+/* NAVBAR */
+.nav {
+  justify-content: flex-end;
+  font-size: 24px;
 }
 
-.key-title, .resume, .name, .title, .contact, .education {
+.nav-link {
+  display: block;
+  padding: 15px 25px !important;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  color:rgb(163, 197, 227) !important;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+/* ABOUT ME */
+
+.about-me, .contact {
   font-weight: bold;
   color: #879ab9;
   font-family: 'Nanum Gothic', cursive;
 }
 
-.name {
-  font-size: 2rem;
-  color: #1e4687;
-  text-align: center;
-  letter-spacing: 5px;
-}
 .about-me-section{
   display: flex;
   justify-content: center;
   margin-top: 50px;
 }
 
+.full-name {
+  letter-spacing: 5px;
+}
+.card-header {
+  font-size: 2rem;
+  color: #1e4687;
+  font-weight: 700;
+  text-align: center;      
+}
+
 .my-image {
   border-radius: 50%;
   padding: 50px 50px;
-  height: 431px;
-  width: 410px;
+  height: 490px;
+  width: 425px;
 }
 
 .about-me-card {
+  border: 2px solid  rgb(133, 187, 234);;
   border-radius: 5px;
   width: 500px;
   margin: 1rem;
@@ -86,16 +99,8 @@ h1 {
   font-weight: bold;
 }
 
-.job {
-  font-size: 2rem;
-  color: #1e4687;
-  text-align: center;      
-}
 
-.school-name {
-  font-weight: bolder;
-  color:#788b85
-}
+
 
 .card {
   background-color: white;
@@ -150,19 +155,12 @@ h1 {
   overflow: auto;
 }
 
-/* #footer {
-  margin: auto 700px;
-  padding: 5px;
-} */
 
 .icon {
   padding: 10px;
 }
 
-.nav {
-  justify-content: flex-end;
-  font-size: 24px;
-}
+
 
 #port-icon {
   background-color: white;
@@ -211,12 +209,6 @@ h1 {
   align-content: center;
   font-size: 22px;
 }
-
-.banner {
-  width: 100%;
-}
-
-
 
 
 /* RESPONSIVE PAGES */

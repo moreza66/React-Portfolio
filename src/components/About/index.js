@@ -1,24 +1,33 @@
 import React from 'react'; 
-// import images from assets
-import myImage from '../Assets/Images/IMG_2029.jpg';
 
-// import { Col } from 'react-bootstrap';
+import myImage from '../Assets/Images/Portfolio-Pic.jpg';
 
 
 function About() {
     return(
-      <section className="about-me-section">
+      <>
+        <h1 className="about-me">
+          If you want to know me better
+        </h1>
+           <section className="about-me-section">
         <img src={myImage} className="my-image" alt="mohammadreza-profile"/>
       <div className="about-me-card"> 
         <div className="content">
-        <h3 class="name">Mohammad Memar</h3>
-        <h4 class="job">Full stack web developer</h4>
+     
+            <h3 class="full-name card-header">
+              Mohammad Memar
+            </h3>
+            <h4 className='card-header'>
+              Full stack web developer
+            </h4>
         <p>
           I am a web developer passionate about creating meaningful and high quality applications using modern technologies. Recently earned a certificate in Full Stack Web Development from
         </p>
         </div>
       </div>
       </section>
+      </>
+  
 
     // <section className="title">
       

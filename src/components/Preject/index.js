@@ -38,10 +38,10 @@ function Wrapper(props) {
 function Projects () {  
     return (
     <>
-    <div className="project">
-    <h1 className="title"> Full Stack Web Developer Projects</h1>
-    </div>
-
+    <h1 className="title"> 
+      Full Stack Web Developer Projects
+    </h1>
+ 
       <Wrapper>
         {projects.map((project) => (
           //myeach projects
