@@ -21,35 +21,12 @@ function About() {
               Full stack web developer
             </h4>
         <p>
-          I am a web developer passionate about creating meaningful and high quality applications using modern technologies. Recently earned a certificate in Full Stack Web Development from
+        Passionate, detail-oriented Full Stack Web Developer student at Rice University coding Boot-camp and a degree in Bio Medical Engineering. Highly enthusiastic about coding and learning new materials. Prepared to excel under stressful situations and maintain a sense of humor while collaborating with a team in a productive, positive manner across fast-paced settings.
         </p>
         </div>
       </div>
       </section>
       </>
-  
-
-    // <section className="title">
-      
-    //   <div className="row justify-content-center" id="about-container">       
-    //   <Col lg={6} md={12}>
-    //   <center><img src={myImage} className="my-image" alt="nicole-profile"/></center>
-    //   <p class="name">Mohammad Memar</p>
-    //   <p class="job">Full stack web developer</p>
-    //   <h2 class="education">a little about me</h2>
-    //     <p>
-    //      I am a web developer passionate about creating meaningful
-		// 			and high quality applications using modern technologies.
-		// 			Recently earned a certificate in Full Stack Web Development
-		// 			from the{' '}
-    //     <br></br>
-  
-    //     <br></br>
-    //      </p>
-    //   </Col>
-
-    //   </div>
-    // </section> 
 )}
   
 export default About;

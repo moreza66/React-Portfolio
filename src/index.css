@@ -58,12 +58,6 @@ h1 {
   font-family: 'Nanum Gothic', cursive;
 }
 
-.about-me-section{
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
-
 .full-name {
   letter-spacing: 5px;
 }
@@ -81,10 +75,18 @@ h1 {
   width: 425px;
 }
 
+.about-me-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .about-me-card {
-  border: 2px solid  rgb(133, 187, 234);;
+  background-color: rgb(163, 197, 227);
+  border: 2px solid  rgb(133, 187, 234);
   border-radius: 5px;
   width: 500px;
+  height: auto;
   margin: 1rem;
   box-shadow: 0 3px 6px #999, 0 3px 6px #999;
 }
@@ -92,8 +94,6 @@ h1 {
 .about-me-card > .content {
   padding: 20px;
   font-size: 18px;
-  height: 480px;
-  background-color: rgb(163, 197, 227);
   color: #1e4687;
   text-align: center;
   font-weight: bold;
@@ -218,24 +218,9 @@ h1 {
     font-size: 20px;
   }
 
-  .education, .resume {
-    font-size: 24px;
-  }
-
   .image {
     width: 200%;
     height: 100%;
-  }
-
-  .name {
-    font-size: 35px;
-    color: #660033;
-    letter-spacing: normal;
-  }
-  
-  .job {
-    font-size: 30px;
-    color: #660033;
   }
 
   .nav {
@@ -245,6 +230,16 @@ h1 {
 
   .contact-icons, .icon-text {
     margin: auto 50%; 
+  }
+
+  .about-me-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .about-me-card {
+    width: 300px;
   }
   
 }
