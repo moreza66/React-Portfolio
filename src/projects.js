@@ -4,6 +4,8 @@ import Project1 from "./components/Assets/Images/ClothingGrusss.jpg";
 import Project2 from "./components/Assets/Images/Text-Edditor.jpg";
 
 import Project3 from "./components/Assets/Images/Movie-time.jpg";
+
+import Project4 from "./components/Assets/Images/my-store.jpg"
 const data = [
     {
         "id": 1,
@@ -31,6 +33,15 @@ const data = [
         "deployedapp": "https://v1ct0r14m.github.io/group-project-1/",
         "description": "The objective is to make a responsive web application that gives a user movie information based on the user's input.",
         "skills": "HTML | CSS | API | Handlebars "
+    },
+    {
+        "id": 4,
+        "name": "My Store",
+        "image": Project4,
+        "github": "https://github.com/RDCERP/my-stores",
+        "deployedapp": "https://my-stores.herokuapp.com",
+        "description": "A social media app that allows you to search, post, share stores and restaurants that you love and can get recommendations directly from your friends.",
+        "skills": "React | GraphQL | MERN | MangoDB "
     },
 ]
 
