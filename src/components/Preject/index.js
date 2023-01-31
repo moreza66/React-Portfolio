@@ -57,7 +57,6 @@ function Projects () {
         ))}
       </Wrapper>
     </>
-    
     );
   }
   

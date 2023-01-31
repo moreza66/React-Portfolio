@@ -14,7 +14,7 @@ function About() {
       <div className="about-me-card"> 
         <div className="content">
      
-            <h3 class="full-name card-header">
+            <h3 className="full-name card-header">
               Mohammad Memar
             </h3>
             <h4 className='card-header'>
